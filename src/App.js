@@ -115,7 +115,20 @@ function App() {
                 </div>
               </div>
             </div>
-            <div className="pro" onClick={() => window.open('https://url-shortly.netlify.app/', '_blank')}>
+            <div className="pro" onClick={() => window.open('https://dalle07804.onrender.com/', '_blank')}>
+              <img
+                src="https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdalle-clone.webp&w=750&q=75"
+                alt=""
+              />
+              <div className="proDetails">
+                <div className="title">DALL-E Clone</div>
+                <div className="desc">
+                OpenAI, Nodejs, Express, Mongoose, ReactJS, Tailwind CSS, Cloudinary
+                </div>
+              </div>
+            </div>
+           
+            {/* <div className="pro" onClick={() => window.open('https://url-shortly.netlify.app/', '_blank')}>
               <img src={bitly} alt="bitly"/>
               <div className="proDetails">
                 <div className="title">Bit.ly Clone</div>
@@ -123,12 +136,13 @@ function App() {
                   React, NodeJs, Express, MongoDB, React-Redux, valid-url
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="pro" onClick={() => window.open('https://easy-share07804.vercel.app/', '_blank')}>
               <img
                 src="https://www.benchmarkemail.com/wp-content/uploads/2019/10/the-10-best-crm-tools-for-small-business-1.webp"
                 alt=""
               />
+
               <div className="proDetails">
                 <div className="title">File Share App</div>
                 <div className="desc">
@@ -181,6 +195,17 @@ function App() {
           <div className="more">
             <h2>More Projects</h2>
             <div className="morepro">
+              <a href="https://url-shortly.netlify.app/" target="_blank" rel="noreferrer" className="a" >
+              <svg viewBox="0 0 24 24" height="24" width="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path> <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>                <div className="col">
+                <span>
+                Bit.ly Clone
+                </span>
+                <span className="desc1">
+                React, NodeJs, Express, MongoDB, React-Redux, valid-url
+                </span>
+                </div>
+              </a>
+
               <a href="https://img-glry.vercel.app/" target="_blank" rel="noreferrer" className="a" >
               <svg viewBox="0 0 24 24" height="24" width="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z" stroke="#ffffff" stroke-width="1.5"></path> <circle cx="16" cy="8" r="2" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M2 12.5001L3.75159 10.9675C4.66286 10.1702 6.03628 10.2159 6.89249 11.0721L11.1822 15.3618C11.8694 16.0491 12.9512 16.1428 13.7464 15.5839L14.0446 15.3744C15.1888 14.5702 16.7369 14.6634 17.7765 15.599L21 18.5001" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
                 <div className="col">
@@ -193,7 +218,7 @@ function App() {
                 </div>
               </a>
 
-              <a href="https://iv-download07804.netlify.app/" target="_blank" rel="noreferrer" className="a">
+              <a href="/" className="a">
               <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M12 7L12 14M12 14L15 11M12 14L9 11" stroke="#ffffff" stroke-width="1.6320000000000001" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M16 17H12H8" stroke="#fff" stroke-width="1.6320000000000001" stroke-linecap="round"></path> <path d="M2 12C2 7.28595 2 4.92893 3.46447 3.46447C4.92893 2 7.28595 2 12 2C16.714 2 19.0711 2 20.5355 3.46447C22 4.92893 22 7.28595 22 12C22 16.714 22 19.0711 20.5355 20.5355C19.0711 22 16.714 22 12 22C7.28595 22 4.92893 22 3.46447 20.5355C2 19.0711 2 16.714 2 12Z" stroke="#fff" stroke-width="1.6320000000000001"></path> </g></svg>                  <div className="col">
                 <span>
                 SnapInsta Clone
