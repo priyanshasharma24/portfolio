@@ -1,6 +1,5 @@
 import "./App.css";
 import blog from './blog.png';
-import bitly from './bitly.webp';
 import { useState,useEffect } from "react";
 
 function App() {
