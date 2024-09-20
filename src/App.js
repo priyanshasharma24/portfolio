@@ -1,5 +1,4 @@
 import "./App.css";
-import blog from './blog.png';
 import { useState,useEffect } from "react";
 
 function App() {
@@ -66,7 +65,7 @@ function App() {
         <div className="profile">
           <div className="photo">
             <img
-              src="https://media.licdn.com/dms/image/D5603AQHDSOXD00w55A/profile-displayphoto-shrink_400_400/0/1706617614065?e=1712188800&v=beta&t=YTqbUYyv9fGVpMN2Hc_ekEpVHdeUhsg7E6JzYFznsno"
+              src="https://res.cloudinary.com/dkbqauksm/image/upload/v1726857146/u0mb1rjiwdcghxzm8glh.jpg"
               alt=""
             />
           </div>
@@ -91,7 +90,7 @@ function App() {
           <div className="row">
             <div className="pro" onClick={() => window.open('https://blog-web07804.vercel.app', '_blank')}>
               <img
-                src={blog}
+                src="https://res.cloudinary.com/dkbqauksm/image/upload/v1726858459/yes97okmc3flquhdfw2a.png"
                 alt=""
               />
               <div className="proDetails">
@@ -116,7 +115,7 @@ function App() {
             </div>
             <div className="pro" onClick={() => window.open('https://dalle-e-07804.vercel.app/', '_blank')}>
               <img
-                src="https://ez-snippet.vercel.app/_next/image?url=%2Fprojects%2Fdalle-clone.webp&w=750&q=75"
+                src="https://res.cloudinary.com/dkbqauksm/image/upload/v1726860245/yvhjf0mndlt9xtpwlvta.jpg"
                 alt=""
               />
               <div className="proDetails">
@@ -138,7 +137,7 @@ function App() {
             </div> */}
             <div className="pro" onClick={() => window.open('https://easy-share07804.vercel.app/', '_blank')}>
               <img
-                src="https://www.benchmarkemail.com/wp-content/uploads/2019/10/the-10-best-crm-tools-for-small-business-1.webp"
+                src="https://res.cloudinary.com/dkbqauksm/image/upload/v1726859994/hcknoes5dwlbcxkgpffi.webp"
                 alt=""
               />
 
@@ -194,6 +193,18 @@ function App() {
           <div className="more">
             <h2>More Projects</h2>
             <div className="morepro">
+              
+            <a href="https://priyanshuyadav07804.github.io/FindTheGift.github.io/" target="_blank" rel="noreferrer" className="a">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad2"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg>                <div className="col">
+                <span>
+                Find The Gift Game
+                </span>
+                <span className="desc1">
+                  HTML, CSS, JQuery, Javascript
+                </span>
+                </div>
+              </a>
+
               <a href="https://url-shortly.netlify.app/" target="_blank" rel="noreferrer" className="a" >
               <svg viewBox="0 0 24 24" height="24" width="24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M10.0464 14C8.54044 12.4882 8.67609 9.90087 10.3494 8.22108L15.197 3.35462C16.8703 1.67483 19.4476 1.53865 20.9536 3.05046C22.4596 4.56228 22.3239 7.14956 20.6506 8.82935L18.2268 11.2626" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path> <path d="M13.9536 10C15.4596 11.5118 15.3239 14.0991 13.6506 15.7789L11.2268 18.2121L8.80299 20.6454C7.12969 22.3252 4.55237 22.4613 3.0464 20.9495C1.54043 19.4377 1.67609 16.8504 3.34939 15.1706L5.77323 12.7373" stroke="#fff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>                <div className="col">
                 <span>
@@ -224,17 +235,6 @@ function App() {
                 </span>
                 <span className="desc1">
                   ReactJs, NodeJs, ExpressJs
-                </span>
-                </div>
-              </a>
-
-              <a href="https://priyanshuyadav07804.github.io/FindTheGift.github.io/" target="_blank" rel="noreferrer" className="a">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gamepad2"><line x1="6" x2="10" y1="11" y2="11"></line><line x1="8" x2="8" y1="9" y2="13"></line><line x1="15" x2="15.01" y1="12" y2="12"></line><line x1="18" x2="18.01" y1="10" y2="10"></line><path d="M17.32 5H6.68a4 4 0 0 0-3.978 3.59c-.006.052-.01.101-.017.152C2.604 9.416 2 14.456 2 16a3 3 0 0 0 3 3c1 0 1.5-.5 2-1l1.414-1.414A2 2 0 0 1 9.828 16h4.344a2 2 0 0 1 1.414.586L17 18c.5.5 1 1 2 1a3 3 0 0 0 3-3c0-1.545-.604-6.584-.685-7.258-.007-.05-.011-.1-.017-.151A4 4 0 0 0 17.32 5z"></path></svg>                <div className="col">
-                <span>
-                Find The Gift Game
-                </span>
-                <span className="desc1">
-                  HTML, CSS, JQuery, Javascript
                 </span>
                 </div>
               </a>
